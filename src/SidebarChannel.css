@@ -1,0 +1,65 @@
+.sidebar__channel:hover>h4{
+    color: white;
+    background-color: #40464b;
+    cursor: pointer;
+}
+.sidebar__channel > h4{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: #2f3135;
+    color: gray;
+
+
+}
+.sidebarChannel__hash{
+    font-size: 30px;
+    padding: 8px;
+}
+.sidebar__voice{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 5px;
+    border-top: 1px solid grey;
+    
+}
+.sidebar__voiceIcon:hover{
+    color: white;
+    /* padding: 3px; */
+}
+.sidebar__voiceInfo{
+    flex: 1;
+}
+.sidebar__voiceIcons{
+    display: flex;
+    color: green;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.sidebar__voiceInfo>p{
+    font-size: small;
+}
+.sidebar__profile{
+    display: flex;
+    padding: px;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.avatar{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.sidebar__profileInfo{
+    flex: 1;
+}
+.sidebar__profileInfo>p{
+    font-size: small;
+}
+.sidebar__profileIcons{
+    display: flex;
+    flex-direction: column;
+    color: green;
+
+}

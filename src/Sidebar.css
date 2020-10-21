@@ -1,0 +1,35 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex:0.25;
+    height: 100vh;
+    background-color: #2f3135;
+}
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    border-bottom: 3px solid #26282c;
+}
+.sidebar__chaneel{
+    flex:1
+}
+.sidebar__addChannel:hover{
+    color: white;
+    cursor: pointer;
+}
+.sidebar__channelHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2f3135;
+    color: grey;
+}
+.sidebar__header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

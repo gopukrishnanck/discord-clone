@@ -1,0 +1,22 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+.button1{
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    background-color: #738adb;
+    color: #eff2f5;
+    font-weight: 700;
+
+}
+.button1 :hover{
+background-color: blanchedalmond;
+color: #738adb;
+
+}
